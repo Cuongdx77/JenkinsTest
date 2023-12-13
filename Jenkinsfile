@@ -1,10 +1,12 @@
 pipeline {
-    agent any
-    stages {
-        stage("Hello") {
-            steps {
-                echo "Welcome to Jenkins pipeline"
-            }
-        }
+  agent {
+    docker { image 'alpine:latest' }
+  }
+  stages {
+    stage('Test') {
+      steps {
+        sh 'echo: Welcome to alpine'
+      }
     }
+  }
 }
