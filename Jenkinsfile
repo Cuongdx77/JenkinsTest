@@ -9,9 +9,7 @@ podTemplate(containers: [
         stage('Run Test') {
             container('nginx') {
                 stage('Shell Execution') {
-                    sh '''
-                    echo "Hello! I am executing shell"
-                    '''
+                    sh 'sleep infinity' 
                 }
             }
         }
