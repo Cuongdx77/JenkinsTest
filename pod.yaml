@@ -3,4 +3,4 @@ kind: Pod
 spec:
   containers:
   - name: test
-    image: dxcuong206/test02:latest
+    image: dxcuong206/test01:latest
