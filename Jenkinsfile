@@ -3,7 +3,7 @@ podTemplate(yaml: readTrusted('pod.yaml')) {
     stage('Run Test') {
       container('jnlp') {
         stage('Shell Execution') {
-          sh 'tail -f /dev/null'
+          sh 'sleep 2h'
         }
       }
     }
