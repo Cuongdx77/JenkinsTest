@@ -7,4 +7,3 @@ spec:
   containers:
   - name: jnlp
     image: dxcuong206/test:05
-    imagePullPolicy: IfNotPresent
