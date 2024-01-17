@@ -6,4 +6,4 @@ metadata:
 spec:
   containers:
   - name: jnlp
-    image: dxcuong206/test01:1.0
+    image: dxcuong206/test01:1.1
